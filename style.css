@@ -1,3 +1,30 @@
+Button{
+  display: block;
+  width: 25%;
+  border: none;
+  background-color: #00ACE0;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+@keyframes Button {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+Button:hover {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+section{
+  padding: 50px;
+  text-align: center;
+}    
 .navbar {
         width: 100%;
         height: 80px;
